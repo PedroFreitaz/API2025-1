@@ -1,0 +1,45 @@
+package org.serratec.backend.entity;
+
+import org.serratec.backend.enums.Estado;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.validation.constraints.NotBlank;
+
+@Entity
+public class Endereco {
+	
+	@Id
+	private Long id;
+	
+	@NotBlank
+	private String cidade;
+	
+	@NotBlank
+	private String bairro;
+	
+	@NotBlank
+	private String rua;
+	
+	@NotBlank
+	private Integer numero;
+	
+	@NotBlank
+	private String complemento;
+	
+	@Enumerated(EnumType.STRING)
+	private Estado estado;
+	
+	@JsonBackReference
+	@ManyToOne
+	@JoinColumn(name = "id_cliente")
+	private Cliente cliente;
+	
+	
+}

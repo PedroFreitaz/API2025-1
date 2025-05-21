@@ -1,0 +1,6 @@
+package org.serratec.backend.enums;
+
+public enum Categoria {
+	SUV,HATCH,PICAPE,SEDAN,CONVERSIVEL,COUPE
+
+}

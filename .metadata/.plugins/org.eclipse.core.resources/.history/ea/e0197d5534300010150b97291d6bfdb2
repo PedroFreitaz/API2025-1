@@ -1,0 +1,12 @@
+package org.serratec.backend;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Teste {
+	
+	public String hello() {
+		return "Hello Word";
+	}
+
+}
