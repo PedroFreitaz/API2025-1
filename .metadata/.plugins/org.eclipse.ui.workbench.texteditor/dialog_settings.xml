@@ -4,33 +4,37 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="setorRepository"/>
+			<item value="setorrepository"/>
+			<item value="funcionario"/>
+			<item value="Funcionario"/>
+			<item value="proprietario"/>
+			<item value="Proprietario"/>
 			<item value="Manutencao"/>
 			<item value="manutencao"/>
 			<item value="Veiculo"/>
 			<item value="veiculo"/>
-			<item value="Proprietario"/>
-			<item value="proprietario"/>
 			<item value="categoria"/>
 			<item value="Categoria"/>
 			<item value="produto"/>
 			<item value="Produto"/>
 		</list>
 		<list key="replacehistory">
+			<item value="setor"/>
+			<item value="Setor"/>
+			<item value="gerente"/>
+			<item value="Gerente"/>
+			<item value="diretor"/>
+			<item value="Diretor"/>
+			<item value="funcionario"/>
+			<item value="Funcionario"/>
+			<item value="Servico"/>
+			<item value="servico"/>
 			<item value="Endereco"/>
 			<item value="endereco"/>
 			<item value="Pedido"/>
 			<item value="pedido"/>
 			<item value="Cliente"/>
-			<item value="cliente"/>
-			<item value="estado"/>
-			<item value="Estado"/>
-			<item value="manutencao"/>
-			<item value="Manutencao"/>
-			<item value="proprietario"/>
-			<item value="Proprietario"/>
-			<item value="combustivel"/>
-			<item value="Combustivel"/>
-			<item value="veiculo"/>
 		</list>
 	</section>
 </section>
