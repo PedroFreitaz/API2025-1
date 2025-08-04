@@ -1,1 +1,9 @@
 /.metadata/
+.metadata/
+.classpath
+.project
+*.log
+target/
+node_modules/
+*.tmp
+*.db
