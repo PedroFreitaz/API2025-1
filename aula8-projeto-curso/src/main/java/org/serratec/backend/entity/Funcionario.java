@@ -1,51 +1,60 @@
 package org.serratec.backend.entity;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-import java.time.LocalDate;
-
 @Entity
 public class Funcionario {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String nome;
+	private LocalDate dataNascimento;
+	private Double salario;
+	private String email;
 
-    private String nome;
-    private LocalDate dataNascimento;
-    private Double salario;
+	public String getEmail() {
+		return email;
+	}
 
-    public Long getId() {
-        return id;
-    }
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	public Long getId() {
+		return id;
+	}
 
-    public String getNome() {
-        return nome;
-    }
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+	public String getNome() {
+		return nome;
+	}
 
-    public LocalDate getDataNascimento() {
-        return dataNascimento;
-    }
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
-    public void setDataNascimento(LocalDate dataNascimento) {
-        this.dataNascimento = dataNascimento;
-    }
+	public LocalDate getDataNascimento() {
+		return dataNascimento;
+	}
 
-    public Double getSalario() {
-        return salario;
-    }
+	public void setDataNascimento(LocalDate dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
 
-    public void setSalario(Double salario) {
-        this.salario = salario;
-    }
+	public Double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(Double salario) {
+		this.salario = salario;
+	}
+
 }

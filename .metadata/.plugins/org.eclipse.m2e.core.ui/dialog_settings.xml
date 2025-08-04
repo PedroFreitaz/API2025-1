@@ -2,9 +2,15 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\SERRATEC\Documents\API2025-1\P-Cler_API2025.1"/>
+			<item value="C:\Users\SERRATEC\Documents\API2025-1\posts"/>
+			<item value="C:\Users\SERRATEC\Documents\API2025-1\projetoFinalApi"/>
+			<item value="C:\Users\SERRATEC\Documents\Api.2\projetoFinalApi"/>
 			<item value="C:\Users\SERRATEC\Documents\API2025-1\aula1"/>
 		</list>
 		<list key="projectNameTemplate">
+			<item value="projetofinalapi"/>
+			<item value="projetoapifinal1"/>
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
 			<item value="[artifactId]-[version]"/>
@@ -75,6 +81,18 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
 		</list>
 	</section>
 </section>

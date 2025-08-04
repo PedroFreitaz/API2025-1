@@ -1,0 +1,6 @@
+package org.serratec.backend.enums;
+
+public enum StatusPedidoEnum {
+	REALIZADO, AGUARDANDO_PAGAMENTO, PAGAMENTO_APROVADO, EM_PROCESSAMENTO, ENVIADO, ENTREGUE, CANCELADO;
+
+}

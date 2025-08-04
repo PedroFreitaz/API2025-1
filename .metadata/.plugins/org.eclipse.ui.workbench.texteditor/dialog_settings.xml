@@ -4,37 +4,38 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
-			<item value="setorRepository"/>
-			<item value="setorrepository"/>
-			<item value="funcionario"/>
-			<item value="Funcionario"/>
-			<item value="proprietario"/>
-			<item value="Proprietario"/>
-			<item value="Manutencao"/>
-			<item value="manutencao"/>
-			<item value="Veiculo"/>
-			<item value="veiculo"/>
-			<item value="categoria"/>
-			<item value="Categoria"/>
+			<item value="campanha"/>
+			<item value="Campanha"/>
 			<item value="produto"/>
 			<item value="Produto"/>
+			<item value="usuario"/>
+			<item value="Usuario"/>
+			<item value="pedido"/>
+			<item value="Pedido"/>
+			<item value="endereco"/>
+			<item value="Endereco"/>
+			<item value="cliente"/>
+			<item value="Cliente"/>
+			<item value="lancamento"/>
+			<item value="Lancamento"/>
+			<item value="Perfil"/>
 		</list>
 		<list key="replacehistory">
-			<item value="setor"/>
-			<item value="Setor"/>
-			<item value="gerente"/>
-			<item value="Gerente"/>
-			<item value="diretor"/>
-			<item value="Diretor"/>
-			<item value="funcionario"/>
-			<item value="Funcionario"/>
-			<item value="Servico"/>
-			<item value="servico"/>
-			<item value="Endereco"/>
-			<item value="endereco"/>
-			<item value="Pedido"/>
-			<item value="pedido"/>
+			<item value="usuario"/>
+			<item value="Usuario"/>
+			<item value="devolucao"/>
+			<item value="Devolucao"/>
+			<item value="cliente"/>
+			<item value="uliente"/>
 			<item value="Cliente"/>
+			<item value="pedidoProduto"/>
+			<item value="PedidoProduto"/>
+			<item value="pedido"/>
+			<item value="Pedido"/>
+			<item value="endereco"/>
+			<item value="Endereco"/>
+			<item value="categoria"/>
+			<item value="Categoria"/>
 		</list>
 	</section>
 </section>

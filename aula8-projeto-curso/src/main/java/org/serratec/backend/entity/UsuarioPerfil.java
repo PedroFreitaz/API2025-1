@@ -55,5 +55,5 @@ public class UsuarioPerfil {
 	public void setDataCriacao(LocalDate dataCriacao) {
 		this.dataCriacao = dataCriacao;
 	}
-	
+
 }

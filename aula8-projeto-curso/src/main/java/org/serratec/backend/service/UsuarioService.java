@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.serratec.backend.config.MailConfig;
 import org.serratec.backend.dto.UsuarioRequestDTO;
 import org.serratec.backend.dto.UsuarioResponseDTO;
 import org.serratec.backend.entity.Usuario;
@@ -20,6 +21,7 @@ import jakarta.transaction.Transactional;
 
 @Service
 public class UsuarioService {
+
 	@Autowired
 	private UsuarioRepository repository;
 
@@ -32,6 +34,10 @@ public class UsuarioService {
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
 
+	@Autowired
+	private MailConfig mailConfig;
+	
+	
 	public List<UsuarioResponseDTO> listar() {
 		List<Usuario> usuarios = repository.findAll();
 		List<UsuarioResponseDTO> usuariosDTO = new ArrayList<>();
@@ -62,6 +68,8 @@ public class UsuarioService {
 		usuarioEntity = repository.save(usuarioEntity);
 		usuarioPerfilRepository.saveAll(usuario.getUsuarioPerfis());
 		
+		//mailConfig.enviar(usuarioEntity.getEmail(),"Confimação de cadastro", usuario.toString());
+
 		return new UsuarioResponseDTO(usuarioEntity.getId(), usuarioEntity.getNome(), usuarioEntity.getEmail());
 	}
 }

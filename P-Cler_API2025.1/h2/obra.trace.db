@@ -1,0 +1,17 @@
+2025-06-16 21:46:11.609722-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]""nome"": ""Areia Média - Saco 20kg"",\000d\000a        ""descricao"": ""Areia lavada média, ideal para concreto e argamassa."",\000d\000a        ""categoria"": ""CONSTRUCAO"",\000d\000a        ""image"": ""https://images.tcdn.com.br/img/img_prod/1184849/areia_media_lavada_saco_20kg_365_1_b2f5d6ddbe6be543a774f9f06c57f39d.jpg"",\000d\000a        ""preco"": 8.75\000d\000a""nome"": ""Rejunte Acrílico Cinza - 1kg"",\000d\000a        ""descricao"": ""Rejunte acrílico flexível, ideal para áreas internas e externas, cor cinza."",\000d\000a        ""categoria"": ""ACABAMENTO"",\000d\000a        ""image"": ""https://cdn.leroymerlin.com.br/products/rejunte_acrilico_quartzolit_1_kg_cinza_artico_1567321064_86d7_600x600.png"",\000d\000a        ""preco"": 15.99\000d\000a""nome"": ""Telha de Cerâmica Romana"",\000d\000a        ""descricao"": ""Telha de cerâmica vermelha, modelo romana, alta durabilidade."",\000d\000a        ""categoria"": ""COBERTURA"",\000d\000a        ""image"": ""https://wingdistribuidora.agilecdn.com.br/16098_1.jpg?v=439-1712381608"",\000d\000a        ""preco"": 2.10"; SQL statement:
+"nome": "Areia Média - Saco 20kg",
+        "descricao": "Areia lavada média, ideal para concreto e argamassa.",
+        "categoria": "CONSTRUCAO",
+        "image": "https://images.tcdn.com.br/img/img_prod/1184849/areia_media_lavada_saco_20kg_365_1_b2f5d6ddbe6be543a774f9f06c57f39d.jpg",
+        "preco": 8.75
+"nome": "Rejunte Acrílico Cinza - 1kg",
+        "descricao": "Rejunte acrílico flexível, ideal para áreas internas e externas, cor cinza.",
+        "categoria": "ACABAMENTO",
+        "image": "https://cdn.leroymerlin.com.br/products/rejunte_acrilico_quartzolit_1_kg_cinza_artico_1567321064_86d7_600x600.png",
+        "preco": 15.99
+"nome": "Telha de Cerâmica Romana",
+        "descricao": "Telha de cerâmica vermelha, modelo romana, alta durabilidade.",
+        "categoria": "COBERTURA",
+        "image": "https://wingdistribuidora.agilecdn.com.br/16098_1.jpg?v=439-1712381608",
+        "preco": 2.10 [42000-232]

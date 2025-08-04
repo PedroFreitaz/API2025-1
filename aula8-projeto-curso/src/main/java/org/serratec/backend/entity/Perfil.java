@@ -18,7 +18,11 @@ public class Perfil {
 	
 	@OneToMany(mappedBy = "id.perfil")
 	private Set<UsuarioPerfil> usuarioPerfis = new HashSet<>();
-	
+
+		
+	public Set<UsuarioPerfil> getUsuarioPerfis() {
+		return usuarioPerfis;
+	}
 	public Long getId() {
 		return id;
 	}
@@ -31,6 +35,6 @@ public class Perfil {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-		
+
 	
 }

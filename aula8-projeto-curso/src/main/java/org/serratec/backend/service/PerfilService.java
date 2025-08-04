@@ -11,10 +11,9 @@ import org.springframework.stereotype.Service;
 public class PerfilService {
 	@Autowired
 	private PerfilRepository repository;
-	
+
 	public Perfil buscar(Long id) {
 		Optional<Perfil> perfil = repository.findById(id);
 		return perfil.get();
 	}
-
 }

@@ -1,7 +1,7 @@
 package org.serratec.backend.exception;
 
 public class EnumExeption extends RuntimeException {
-
+	
 	/**
 	 * 
 	 */
